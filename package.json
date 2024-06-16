@@ -1,0 +1,20 @@
+{
+  "engines": {
+    "node": "20.6.0",
+    "yarn": "1.22.19"
+  },
+  "name": "WebExplorer",
+  "type": "module",
+  "version": "0.1.0.0",
+  "description": "A playground for experimenting with LLMs browsing the internet",
+  "main": "index.js",
+  "author": "campean_dragos@ymail.com",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "4.51.0",
+    "puppeteer": "^22.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "packageManager": "yarn@4.3.0"
+}
